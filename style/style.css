@@ -1,0 +1,25 @@
+img {
+	max-height: 100%;
+	max-width : 100%;
+}
+.content {
+	background-color: #baff6b;
+	width: 1200px;
+	margin: 0 auto;
+}
+.row {
+	display: flex;
+}
+.box {
+	width: 100px;
+	flex-grow: 1;
+	background-color: red;
+	margin: 10px;
+}
+.col-1 {
+	flex-grow: 1;
+	text-align: center;
+}
+.col-3 {
+	flex-grow: 3;
+}
